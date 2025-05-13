@@ -4,9 +4,17 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/test/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rakkas&display=swap"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>X-Demon</title>
     <script type="module" crossorigin src="/test/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/test/assets/styles-Bj86_6dt.css">
+    <link rel="stylesheet" crossorigin href="/test/assets/styles-FyJkbbBY.css">
   </head>
   <body>
     <header class="header">
@@ -18,7 +26,44 @@
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <!-- Hero -->
+ <section class="hero-section">
+    <div class="container">
+        <h1 class="visually-hidden">X-Demon</h1>
+        <picture>
+            <source srcset="/test/assets/hero-title-desk-BVu_To8z.png 1x, /test/assets/hero-title-desk@2x-kFfxkabX.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/test/assets/hero-title-mob-DCHoDG6Y.png 1x, /test/assets/hero-title-mob@2x-CijibTDK.png 2x" media="(max-width: 1438px)" />
+            <img class="hero-title-img" src="/test/assets/hero-title-mob-DCHoDG6Y.png" alt="X-Demon Logo" loading="lazy" />
+        </picture>
+        <p class="hero-text">Summon the Glitch.
+        Control the Darkness.</p>
+        <button type="button" class="hero-button">
+            <picture>
+                <source srcset="/test/assets/hero-button-desk-CwWUuoCQ.png 1x, /test/assets/hero-button-desk@2x-Fp2c5Tez.png 2x" media="(min-width: 1439px)" />
+                <source srcset="/test/assets/hero-button-mob-Bw_URM5M.png 1x, /test/assets/hero-button-mob@2x-NNp8yBXs.png 2x" media="(max-width: 1438px)" />
+                <img class="button-img" src="/test/assets/hero-button-mob-Bw_URM5M.png" alt="Hell button" loading="lazy" />
+                </picture>
+        </button>
+    </div>
+ </section>
+ <!-- Welcome to the Demon Protocol -->
+  <section class="protocol-section">
+    <div class="container">
+        <h2 class="protocol-title">Welcome to the Demon Protocol</h2>
+        <div class="prorocol-wrapper">
+            <p class="protocol-text">X-Demon is not just a game—it’s an invocation.</p>
+            <p class="protocol-text">Beneath its reel-based core lies a system infected with something ancient.<br/>
+            Each spin channels corrupted data into unpredictable patterns.</p>
+            <p class="protocol-text">Demonic algorithms twist logic, rewards surge like surges of forbidden energy, and you—the Operator—hold the code that
+            opens it all. <br />Do you decode... or be consumed?</p>
+        </div>
+        <picture>
+            <source srcset="/test/assets/protocol-desk-VC7Fvi9L.png 1x, /test/assets/protocol-desk@2x-BHbAfMua.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/test/assets/protocol-mob-BTNQ5t2Y.png 1x, /test/assets/protocol-mob@2x-fPEOrk9c.png 2x" media="(max-width: 1438px)" />
+            <img class="protocol-img" src="/test/assets/protocol-mob-BTNQ5t2Y.png" alt="X-Demon" loading="lazy" />
+        </picture>
+    </div>
+  </section>
     </main>
 
     <footer class="footer">
