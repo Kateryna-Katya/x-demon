@@ -1,0 +1,60 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+@import url('./header.css');
+.background {
+    background: linear-gradient(180deg, #61030e 0%, #840013 100%);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18182;
+    color: #fff;
+}
+.privacy-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.18182;
+    color: #fff;
+    text-align: left;
+    margin-top: 70px;
+    text-shadow: none;
+}
+.privacy-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.privacy-subtitle {
+    font-size: 18px;
+}
+.text-up {
+    margin-top: 20px;
+}
+.privacy-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.privacy-list-two{
+    list-style-type: disc;
+        padding-left: 20px;
+}
+.privacy-underline {
+    text-decoration: underline;
+}
+.text {
+    margin-bottom: 20px;
+}
+.email {
+    text-decoration: underline;
+}
+@media only screen and (min-width: 1439px) {
+    .privacy-container {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+        .privacy-title {
+            margin-top: 100px;
+        }
+}
