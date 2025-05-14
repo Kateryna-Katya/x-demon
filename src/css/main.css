@@ -37,6 +37,10 @@
     cursor: pointer;
     background-color: inherit;
     border: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 441px;
+    display: block;
 }
 @media only screen and (min-width: 1439px) {
     .hero-section {
@@ -313,6 +317,7 @@ margin-right: auto;
 .demo-btn {
 margin-left: auto;
 margin-right: auto;
+width: 441px;
 }  
 }
 /* Hear What Should Not Be Heard */

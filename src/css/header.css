@@ -1,0 +1,117 @@
+.header {
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    backdrop-filter: blur(12px);
+        background: rgba(165, 60, 60, 0.6);
+        height: 60px;
+width: 100%;
+}
+.header-container{
+    padding:16px;
+}
+.menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: inherit;
+    margin-right: 10px;
+    margin-left: auto;
+}
+.navigation-list {
+    display: none;
+}
+/* Modal */
+.modal {
+    display: none;
+    backdrop-filter: blur(12px);
+        background: rgba(165, 60, 60, 0.8);
+    width: 374px;
+    height: 734px;
+    z-index: 1000;
+    position: fixed;
+    top: 68px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 75px 60px 75px;
+    transition: visibility 0.3s ease;
+}
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: left;
+    margin-bottom: 32px;
+}
+
+.menu-list-item {
+    font-family: "Rakkas", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+    transition: color 0.3s easy, text-shadow 0.3s ease;
+}
+
+.menu-list-item:hover {
+    color: #f1ab24;
+    text-shadow:
+            0 0 3px #ff0200,
+            0 0 4px #ff0200,
+            0 0 5px #ff5f00;
+}
+.policy-list{
+    display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: left;
+}
+.policy-item{
+    font-family: "Rakkas", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        transition: color 0.3s easy, text-shadow 0.3s ease;
+}
+.policy-item:hover {
+    color: #f1ab24;
+    text-shadow:
+        0 0 3px #ff0200,
+        0 0 4px #ff0200,
+        0 0 5px #ff5f00;
+}
+
+@media screen and (min-width: 1440px) {
+    .header {
+        width: 100%;
+        height: 80px;
+    }
+    .menu-button {
+        display: none;
+    }
+    .navigation-list {
+        display: flex;
+        gap: 28px;
+    }
+
+    .header-container {
+padding: 28px 24px;
+    }
+.navigation-item{
+font-family: "Rakkas", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    transition: color 0.3s easy, text-shadow 0.3s ease;
+}
+.navigation-item:hover,
+.navigation-item:active{
+    color: #f1ab24;
+        text-shadow:
+            0 0 3px #ff0200,
+            0 0 4px #ff0200,
+            0 0 5px #ff5f00;
+}
+}
