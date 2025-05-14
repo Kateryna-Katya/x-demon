@@ -346,3 +346,180 @@ margin-right: auto;
             margin-top: -240px;
            }   
 }
+/* Optimized for the Abyss */
+.abyss-section{
+    background-image: url("/img/abyss/abyss-mob.png"), linear-gradient(0deg, #820018 0.35%, #140000 100%);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top center, top center;
+    background-size: cover, cover;
+}
+.abyss-container{
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.abyss-title{
+    width: 353px;
+    margin-bottom: 28px;
+}
+.abyss-text{
+    font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.3;
+        text-align: center;
+        color: #fff;
+        width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 22px;
+}
+.abyss-list{
+    display: flex;
+    flex-direction: column;
+}
+.abyss-item{
+    display: flex;
+    align-items: center;
+}
+.abyss-item-text{
+    font-family: "Rakkas", sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        color: #fff;
+        width: 190px; 
+}
+.abyss-item-two{
+    position: relative;
+    margin-top: -80px;
+    margin-bottom: -30px;
+}
+.abyss-img-two{
+    margin-left: -90px;
+}
+.abyss-text-two{
+    margin-left: -86px;
+}
+.abyss-arrow{
+    position: absolute;
+    bottom: 50px;
+    left: 70px;
+}
+@media only screen and (min-width: 1439px) {
+     .abyss-section {
+            background-image: url("/img/abyss/abyss-desk.png"), linear-gradient(0deg, #820018 0.35%, #140000 100%);
+            background-repeat: no-repeat, no-repeat;
+            background-position: top center, top center;
+            background-size: 100% 612px, cover; 
+}
+.abyss-container {
+    padding: 40px 100px;
+}
+.abyss-title {
+    width: 480px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.abyss-text {
+    width: 634px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 21px;
+}
+.abyss-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   margin-right: auto;
+   margin-left: auto;
+width: 983px;
+}
+.abyss-item {
+    display: flex;
+    align-items: center;
+    width: 469px;
+}
+.abyss-item-text {
+    width: 316px;
+}
+.abyss-item-two {
+    position: relative;
+    margin-top: -70px;
+    margin-bottom: -30px;
+    order: 3;
+}
+.abyss-item-four{
+    order: 4;
+    margin-top: -40px;
+}
+.abyss-arrow {
+    position: absolute;
+    bottom: 70px;
+    left: 370px;
+}
+}
+/* Others Have Entered */
+.ohters-section{
+    background-image: url("/img/others/others-mob.png"), linear-gradient(0deg, #820018 0.35%, #140000 100%);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top center, top center;
+    background-size: cover, cover;
+}
+.others-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+.others-title{
+    margin-bottom: 28px;
+}
+.others-text{
+    font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.44444;
+        text-align: center;
+        color: #fff;
+}
+@media only screen and (min-width: 1439px) {
+.ohters-section {
+background-image: url("/img/others/ohters-desk.png"), linear-gradient(0deg, #820018 0.35%, #140000 100%);
+background-repeat: no-repeat, no-repeat;
+background-position: top center, top center;
+background-size: 100% 356px, cover;
+}   
+.others-container {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap: 22px;
+ }    
+.others-title {
+margin-bottom: 50px; 
+ }
+}
+/* Disclaimer */
+.disclaimer-section{
+    box-shadow: inset 0 0 32px 0 rgba(0, 0, 0, 0.9);
+        background: linear-gradient(0deg, #820018 0.35%, #140000 100%);
+}
+.disclaimer-title{
+    margin-bottom: 28px;
+}
+.disclaimer-text{
+    font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 1.18182;
+        text-align: center;
+        color: #fff;
+}
+@media only screen and (min-width: 1439px) {
+.disclaimer-title {
+margin-bottom: 50px;
+} 
+.disclaimer-container{
+    padding-bottom: 100px;
+}
+}
