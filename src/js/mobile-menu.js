@@ -12,17 +12,17 @@ document.addEventListener('DOMContentLoaded', () => {
   
       if (isMenuOpen) {
         openModal();
-        menuBtnIcon.setAttribute('href', '/img/sprite.svg#icon-cross');
+        menuBtnIcon.setAttribute('href', './img/sprite.svg#icon-cross');
       } else {
         closeModal();
-        menuBtnIcon.setAttribute('href', '/img/sprite.svg#icon-burger');
+        menuBtnIcon.setAttribute('href', './img/sprite.svg#icon-burger');
       }
     });
   
     menuItem.forEach(item =>
       item.addEventListener('click', () => {
         closeModal();
-        menuBtnIcon.setAttribute('href', '/img/sprite.svg#icon-burger');
+        menuBtnIcon.setAttribute('href', './img/sprite.svg#icon-burger');
         isMenuOpen = false;
       })
     );
