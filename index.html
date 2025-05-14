@@ -14,20 +14,79 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>X-Demon</title>
     <script type="module" crossorigin src="/x-demon/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/x-demon/assets/styles-DAAwnyUf.css">
+    <link rel="stylesheet" crossorigin href="/x-demon/assets/styles-QuRvU9vi.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-  
-  </div>
+    <header class="header" id="site-header">
+  <div class="header-container container">
+      <button type="button" class="menu-button" aria-label="menu toggle">
+        <svg class="header-svg" width="28" height="28">
+          <use href="/x-demon/assets/sprite-BMdOMa5D.svg#icon-burger"></use>
+        </svg>
+      </button>
+
+      <nav class="nav ">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="links" href="index.html#Ritual">The Ritual Has Begun</a>
+          </li>
+          <li class="navigation-item">
+            <a class="links" href="index.html#Gate">The Gate Is Open</a>
+          </li>
+          <li class="navigation-item">
+            <a class="links" href="index.html#Mechanics">Forbidden Mechanics</a>
+          </li>
+          <li class="navigation-item">
+            <a class="links" href="index.html#Code">Lore of the Source Code</a>
+          </li>
+          <li class="navigation-item">
+            <a class="links" href="index.html#Free">Free Ritual Trial</a>
+          </li>
+          <li class="navigation-item">
+            <a class="links" href="index.html#Sound">Sound Design for Possession</a>
+          </li>
+          <li class="navigation-item">
+            <a class="links" href="index.html#Performance">Performance Under Pressure</a>
+          </li>
+          <li class="navigation-item">
+            <a class="links" href="index.html#Map">Global Data Corruption Map</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 </header>
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+  <ul class="menu-list">
+    <li><a class="menu-list-item" href="index.html#Ritual">The Ritual Has Begun</a></li>
+    <li><a class="menu-list-item" href="index.html#Gate">The Gate Is Open</a></li>
+    <li>
+      <a class="menu-list-item" href="index.html#Mechanics">Forbidden Mechanics</a>
+    </li>
+    <li><a class="menu-list-item" href="index.html#Code">Lore of the Source Code</a></li>
+    <li><a class="menu-list-item" href="index.html#Free">Free Ritual Trial</a></li>
+    <li><a class="menu-list-item" href="index.html#Sound">Sound Design for Possession</a></li>
+    <li><a class="menu-list-item" href="index.html#Performance">Performance Under Pressure</a></li>
+    <li><a class="menu-list-item" href="index.html#Map">Global Data Corruption Map</a></li>
+  </ul>
+  <ul class="policy-list">
+    <li class="policy-item">
+      <a class="menu-list-item list-condition" href="Terms and Conditions.html">Terms and conditions</a>
+    </li>
+    <li class="policy-item">
+      <a class="menu-list-item list-condition" href="Privacy Policy.html">Privacy Policy</a>
+    </li>
+     <li class="policy-item">
+      <a class="menu-list-item list-condition" href="Cookies Policy.html">Cookies Policy</a>
+    </li>
+  </ul>
+</div>
 
 
     <main>
       <!-- Loads the specified .html file -->
       <!-- Hero -->
- <section class="hero-section">
+ <section class="hero-section" id="Ritual">
     <div class="container">
         <h1 class="visually-hidden">X-Demon</h1>
         <picture>
@@ -37,17 +96,16 @@
         </picture>
         <p class="hero-text">Summon the Glitch.
         Control the Darkness.</p>
-        <button type="button" class="hero-button">
+            <a class="hero-button" href="id#Free">
             <picture>
                 <source srcset="/x-demon/assets/hero-button-desk-CwWUuoCQ.png 1x, /x-demon/assets/hero-button-desk@2x-Fp2c5Tez.png 2x" media="(min-width: 1439px)" />
                 <source srcset="/x-demon/assets/hero-button-mob-Bw_URM5M.png 1x, /x-demon/assets/hero-button-mob@2x-NNp8yBXs.png 2x" media="(max-width: 1438px)" />
                 <img class="button-img" src="/x-demon/assets/hero-button-mob-Bw_URM5M.png" alt="Hell button" loading="lazy" />
-                </picture>
-        </button>
+                </picture></a>
     </div>
  </section>
  <!-- Welcome to the Demon Protocol -->
-  <section class="protocol-section">
+  <section class="protocol-section" id="Gate">
     <div class="container">
         <h2 class="protocol-title">Welcome to the Demon Protocol</h2>
         <div class="prorocol-wrapper">
@@ -65,7 +123,7 @@
     </div>
   </section>
   <!-- Features From Beyond the Firewalls -->
-   <section class="features-section">
+   <section class="features-section" id="Mechanics">
     <div class="container">
         <h2 class="features-title">Features From Beyond the Firewalls</h2>
         <ul class="features-list">
@@ -108,7 +166,7 @@
     </div>
    </section>
    <!-- Origins of the Demon OS -->
-    <section class="demon-section">
+    <section class="demon-section" id="Code">
         <div class="container">
             <h2 class="demon-title">Origins of the Demon OS</h2>
             <div class="demon-wrapper">
@@ -125,23 +183,22 @@
         </div>
     </section>
     <!-- Confront the Entity, Risk-Free -->
-<section class="demo-section">
+<section class="demo-section" id="Free">
     <div class="container">
         <h2 class="demo-title">Confront the Entity, Risk-Free</h2>
         <p class="demo-text">Want to feel the burn without the consequence?<br/> Play the demo version and experience the mechanics, visuals, and
         soundscape without logging in or wagering anything.<br /> Understand the rhythm. Learn the interface. Prepare for full
         upload.</p>
-        <button type="button" class="demo-btn">
+                   <a class="demo-btn" href="https://demo.evoplay.games/demo/fullstate/html5/evoplay/xdemon">
         <picture>
             <source srcset="/x-demon/assets/demo-btn-desk-DCygd2gx.png 1x, /x-demon/assets/demo-btn-desk@2x-BhaRJYp9.png 2x" media="(min-width: 1439px)" />
             <source srcset="/x-demon/assets/demo-btn-mob-DVIh06n8.png 1x, /x-demon/assets/demo-btn-mob@2x-BWaZiD5B.png 2x" media="(max-width: 1438px)" />
             <img class="demo-img" src="/x-demon/assets/demo-btn-mob-DVIh06n8.png" alt="Try Free Demo" loading="lazy" />
-        </picture>
-    </button>
-    </div>
+        </picture></a>
+      </div>
 </section>
 <!-- Hear What Should Not Be Heard -->
- <section class="hear-section">
+ <section class="hear-section" id="Sound">
     <div class="container">
         <h2 class="hear-title">Hear What Should Not Be Heard</h2>
         <picture>
@@ -157,7 +214,7 @@
     </div>
  </section>
  <!-- Optimized for the Abyss -->
-  <section class="abyss-section">
+  <section class="abyss-section" id="Performance">
     <div class="container abyss-container">
         <h2 class="abyss-title">Optimized for the Abyss</h2>
         <p class="abyss-text">X-Demon works seamlessly on mobile, tablet, and desktop—whether you're connecting through light or lurking in dark
@@ -188,7 +245,7 @@
     </div>
   </section>
   <!-- Others Have Entered -->
-   <section class="ohters-section">
+   <section class="ohters-section" id="Map">
     <div class="container">
         <h2 class="others-title">Others Have Entered</h2>
         <div class="others-container">
@@ -213,11 +270,34 @@
     </main>
 
     <footer class="footer">
-  <div class="container">
-   
+  <div class="container footer-container">
+      <p class="footer-text">All rights reserved magicblitzworld.com | 2025</p>
+    <ul class="footer-navigation">
+        <li class="footer-link">
+        <a class="footer-underline" href="Terms and Conditions.html">Terms and Conditions</a>
+      </li>
+      <li class="footer-link">
+        <a class="footer-underline" href="Privacy Policy.html">Privacy Policy</a>
+      </li>    
+      <li class="footer-link">
+        <a class="footer-underline" href="Cookies Policy.html">Cookies</a>
+      </li>
+    </ul>  
   </div>
 </footer>
+    <div id="cookie-popup" class="cookie-popup">
+    <button class="popup-close-button" aria-label="close button">
+         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 15L15 1" stroke="#140101" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M15 15L1 1" stroke="#140101" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />    </svg>
+    </button>
+    <p class="cookie-class">Our website use cookies. By continuing, we assume your permission to deploy cookies as detailed in our Privacy Policy.</p>
+    <div class="cookie-buttons">
+        <button id="decline-cookies" class="btn-decline">Decline</button>
+        <button id="accept-cookies" class="btn-accept">Accept cookies</button>
 
+    </div>
+</div>
 
   </body>
 </html>
