@@ -126,7 +126,11 @@
         <p class="demo-text">Want to feel the burn without the consequence?<br/> Play the demo version and experience the mechanics, visuals, and
         soundscape without logging in or wagering anything.<br /> Understand the rhythm. Learn the interface. Prepare for full
         upload.</p>
-                   <a class="demo-btn" href="https://demo.evoplay.games/demo/fullstate/html5/evoplay/xdemon">
+        <a class="demo-btn" 
+         href="#"
+        data-game-url="https://demo.evoplay.games/demo/fullstate/html5/evoplay/journeytothewest"
+        target="gameIframe"
+            onclick="showIframe(event)"     >
         <picture>
             <source srcset="
             /img/demo/demo-btn-desk.png 1x,
@@ -138,6 +142,16 @@
                                              " media="(max-width: 1438px)" />
             <img class="demo-img" src="/img/demo/demo-btn-mob.png" alt="Try Free Demo" loading="lazy" />
         </picture></a>
+        <div class="ifram-wrapper">
+            <iframe id="gameIframe" style="display: none; width: 100%; height: 600px; border: none; margin-top: 20px;"></iframe>
+        
+            <button id="closeIframeBtn" aria-label="Close" class="hidden-close-btn">
+                <svg class="icon-svg" width="32" height="32">
+                    <use href="/img/sprite.svg#icon-cross"></use>
+                </svg>
+            
+            </button>
+           </div>
       </div>
 </section>
 <!-- Hear What Should Not Be Heard -->

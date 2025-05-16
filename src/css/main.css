@@ -297,6 +297,21 @@ margin-top: -280px;
     border: none;
     cursor: pointer;
 }
+.ifram-wrapper{
+    position: relative;
+}
+.hidden-close-btn{
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: inherit;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+        z-index: 10;
+}
 @media only screen and (min-width: 1439px) {
 .demo-section {
 background-image: url("/img/demo/demo-desk.png"), linear-gradient(0deg, #820018 0.35%, #140000 100%);
@@ -414,7 +429,7 @@ width: 441px;
             background-image: url("/img/abyss/abyss-desk.png"), linear-gradient(0deg, #820018 0.35%, #140000 100%);
             background-repeat: no-repeat, no-repeat;
             background-position: top center, top center;
-            background-size: 100% 612px, cover; 
+            background-size: 100% 614px, cover; 
 }
 .abyss-container {
     padding: 40px 100px;
@@ -492,7 +507,7 @@ width: 983px;
 background-image: url("/img/others/ohters-desk.png"), linear-gradient(0deg, #820018 0.35%, #140000 100%);
 background-repeat: no-repeat, no-repeat;
 background-position: top center, top center;
-background-size: 100% 356px, cover;
+background-size: 100% 358px, cover;
 }   
 .others-container {
  display: flex;
